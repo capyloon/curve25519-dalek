@@ -617,6 +617,7 @@ impl Scalar {
     ///
     /// use sha2::Digest;
     /// use sha2::Sha512;
+    /// use curve25519_dalek::digest::Update;
     ///
     /// # fn main() {
     /// let mut h = Sha512::new()
